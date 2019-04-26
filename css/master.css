@@ -1,6 +1,8 @@
 body{
-  background-color: black;
-  color: white;
+
+  background: BLACK;
+  background-repeat:space;
+
 }
  h1{
    font-family: objective;
@@ -10,18 +12,24 @@ body{
    font-family: caviar dreams;
  }
 
-.topnav img{
-  width: 30px;
- border-radius: 50px;
- color: invert;
+ .bg{
+   background: url("file:///E:/files/sdc%203-2/shalivahana/images/banner (2).jpg?time=1556270654960");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: inherit;
+   background-size: contain;
 
-}
+ }
+
  .topnav
  {
+   padding-left: 10px;
+   padding-top: 10px;
+   padding-right: 10px;
    overflow: hidden;
 
  }
- .topnav h1,.topnav img {
+ .topnav h1{
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -29,11 +37,12 @@ body{
   text-decoration: none;
   font-size: 20px;
   font-family: objective;
+
 }
  .topnav-right {
    float: right;
-   /*background-color: blue;
-     border-radius: 50px;*/
+  background-color: black;
+     border-radius: 50px;
  }
 
  .topnav-right a {
@@ -48,25 +57,62 @@ padding: 14px 60px;
 
 }
 .topnav-right a:hover{
-  background-color: grey;
+  border-radius: 50px;
+  transition: all linear 0.7s;
+background: white;
+  color: black;
+
 }
+
 .mid img{
  display: block;
-  width: 55%;
+  width: 35%;
   height: auto;
   margin-top: 100px;
-border-radius: 50px;
+border-radius: 75px;
 margin-left: auto;
 margin-right: auto;
 }
+
 .mid1 h2,.mid1 h1 {
   color: white;
   margin-top: 40px;
   text-align: center;
-  font-stretch: semi-expanded;
+
 
 }
 
+.icons img{
+
+ float: left;
+/*  width: 50px;*/
+
+  display: block;
+   width: 35px;
+   height: auto;
+   margin-top: 70px;
+   filter: invert(1);
+   margin: 45px 45px 45px 45px;
+
+
+
+}
+.icons img:hover{
+  transform: scale(1.5);
+  transition: all linear 0.3s;
+}
+.icons{
+  margin-top:200px;
+  margin-bottom: auto;
+  float: left;
+ margin-left:27%;
+ margin-right: 25%;
+
+  background: white;
+  border-radius: 50px;
+
+
+}
 .footer {
   font-size: 55%;
    position: fixed;
@@ -74,4 +120,5 @@ margin-right: auto;
    bottom: 0;
    width: 100%;
    text-align: center;
+   color: white;
 }
